@@ -2,6 +2,7 @@ a = [[],[],[]] # если длина ключа равно 4 то  a = [[],[],[]
 
 f = open('vigenere.txt', 'r') 
 s = f.read()
+s = s.replace(chr(10), '')
 #print(s)
 f.close()
 for i in range(0,len(s)):
